@@ -1,0 +1,90 @@
+.start-con{
+    position: relative;
+    background: radial-gradient(rgba(147, 194, 194, 0),aqua);
+    width: 100%;
+    height: 100vh; 
+    margin-bottom: 100px;
+}
+
+.tekst{
+   position: absolute;
+   width: 40%;
+   top: 30%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   font-size: 1rem;
+   color: black;
+}
+
+.tekst > p{
+    font-weight: 600;
+}
+
+.tekst > h1{
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.tekst > a {
+    font-weight: 600;
+    position: absolute;
+    color: black;
+    margin-top: 20px;
+    border-radius: 15px;
+    padding: 7px 20px;
+    background: radial-gradient(rgb(226, 180, 28), rgb(255, 189, 68));
+    transition: transform 100ms linear;
+}
+
+.tekst > a:hover{
+    cursor: pointer;
+    background: rgb(199, 141, 15);
+    transform: scale(1.1)  
+}
+
+.plaatje{
+    overflow: hidden;
+    position: absolute;
+    width: 50%;
+    height: auto;
+    top: 75%;  
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.plaatje > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    box-sizing: border-box;
+}
+
+
+
+@media (min-width: 700px){
+    .tekst {
+        top: 40%;
+        left: 7%;
+        transform: translate(0);
+    }
+
+    .tekst > h1 {
+        font-size: 4rem;
+    }
+
+    .tekst > p{
+        font-size: 1.7rem;
+    }
+
+    .plaatje {
+        position: relative;
+        width: 300px;
+        height: auto;
+        top: 40%;
+        transform: translate(0);
+        margin-left: 12%;   
+    }
+
+    
+}
+
