@@ -27,7 +27,7 @@ img{
   max-width: 300px;
 }
 .nav-items img{
-  margin: 20px:
+  margin: 20px;
 }
 .nav-items img:hover{
   transform: scale(1.1);
@@ -155,4 +155,21 @@ nav .icon:hover {
     }
 
 
+}
+.introduction{
+  display: grid;
+  grid-template-columns: 30% 1fr 1fr 20%;
+  height: 500px;
+  background-color: rgb(207, 206, 186);
+  padding-top: 40px;
+  margin-top: 64px;
+}
+.introduction h1{
+  grid-column: 2;
+}
+.introduction p{
+  grid-column: 2;
+}
+.introduction img{
+  grid-column: 3;
 }
