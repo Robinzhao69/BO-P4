@@ -26,6 +26,12 @@ body{
 img{
   max-width: 300px;
 }
+.nav-items img{
+  margin: 20px:
+}
+.nav-items img:hover{
+  transform: scale(1.1);
+}
 * {  
     text-rendering: optimizeSpeed;  
     margin: 0;
@@ -42,7 +48,7 @@ a {
 nav {
   display: flex;
   padding: 5px 0px 5px 0px;
-  background-color: #333;
+  background-color: rgb(51, 51, 51);
   width: 100%;  
   justify-content: flex-end; 
   z-index: 3;
@@ -65,7 +71,7 @@ nav {
   position: fixed;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.808);
+  background-color: rgba(0, 0, 0, 0.596);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -111,6 +117,7 @@ nav .icon:hover {
 
 .nav-items > img{
   height: 50px;
+  margin: 7px;
   display: none;
 }
 
