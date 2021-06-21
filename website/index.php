@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="css/start.css">
     <link rel="stylesheet" href="css/product-slider.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com/%22%3E">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap" rel="stylesheet">
     <script type="module" src="js/script.js" defer></script>
     <script type="module" src="js/request.js" defer></script>
     <script type="module" src="js/slider.js" defer></script>
@@ -22,7 +24,7 @@
             </div>
         </nav>
         <ul class="nav-items">
-            <img src="./foto/unnamed.jpg" alt="">
+            <img src="./foto/logo.png" alt="">
             <div class="nav-links">
                 <a href="#"><li>Home</li></a>
                 <a href="#"><li>Cart</li></a>
@@ -32,6 +34,7 @@
         </ul>
     </div>
 
+    
     
     <div class="all-con">
         <!-- startpage -->
@@ -43,10 +46,28 @@
             </div>
 
             <div class="plaatje">
-                <img src="./foto/product1.png" alt="">
+                <img src="./foto/logo.png" alt="">
             </div>
         </div>
+        </div>
 
+   <div class="section">
+        <div>
+          <img src="./foto/statistics.png" alt="">
+          <h2>Value</h2>
+          <p>Value, we have the best prices for this range of quality.</p> 
+        </div>
+        <div>
+          <img src="./foto/stopwatch.png" alt="">
+          <h2>Speed</h2>
+          <p>We use some of the fastest delivery methods in this age, but not only that is fast, we also have a very quick customer service.</p> 
+        </div>
+        <div>
+          <img src="./foto/teamwork.png" alt="">
+          <h2>Trust</h2>
+          <p>We build our company on the foundation of trust we strice to be transparent about all our endevours and give out eazy access to any information you might want.</p> 
+        </div>
+   </div>       
         <h1 class="slide-titel">populaire producten</h1>
         <div class="product-slider">            
             <img id="slide-left" class="arrow" src="./foto/arrow-left.png">

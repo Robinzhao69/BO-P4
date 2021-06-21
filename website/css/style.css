@@ -1,17 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
 :root {
-  color: white;
+  color:#FFFFFF;
 }
 
 html, body{
+    background-color: #E7ECEF;
     scroll-behavior: smooth;
     height: 100%;
     width: 100%;
     overflow-x: hidden;
     position: relative;
 }
-
+body{
+  padding: 0px;
+  margin: 0px;
+}
+.section{
+  font-family: 'Roboto', sans-serif;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 100px;
+  padding: 50px;
+}
+img{
+  max-width: 300px;
+}
 * {  
     text-rendering: optimizeSpeed;  
     margin: 0;
@@ -87,6 +101,7 @@ nav .icon:hover {
 
 .all-con{
   padding: 0;
+  height: 900px;
 }
 
 .nav-links {
