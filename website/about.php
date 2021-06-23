@@ -32,7 +32,7 @@
 
 <div class="introduction">
     <h1>Hi! We're Duckyz</h1>
-    <p>We are a new and </p>
+    <p>We are a new and exciting webshop, <br> we sell bath/pool toys.</p>
     <img src="./foto/logo.png" alt="">
 </div>
 </body>
