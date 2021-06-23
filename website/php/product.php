@@ -1,18 +1,17 @@
 <?php
 
 // Zet de toegangsgegevens tot de database in variabelen
-$server     = 'localhost';
-$port       = 8889;
-$database   = 'proj_webshop';
+$server     = '127.0.0.1';
+$database   = 'c5712proj_webshop';
 $table      = 'items';
-$name       = 'root';
-$pwd        = 'root';
+$name       = 'c5712Robin';
+$pwd        = 'SePZN2rYrek!sE';
 
 // MAAK een lege array aan, in deze array komen later de resultaten te staan.
 $items = array();
 
 // MAAK een connectie met de database
-$connect = mysqli_connect($server, $name, $pwd, $database, $port);
+$connect = mysqli_connect($server, $name, $pwd, $database);
 
 // CHECK of er een connectie gemaakt wordt en zo niet geef de foutmelding
 if (mysqli_connect_errno()) {

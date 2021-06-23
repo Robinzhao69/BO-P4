@@ -34,7 +34,7 @@ function addElement (item) {
     newH1.innerHTML = item.item_name
     const newP = document.createElement("p")
     newP.className = 'price'
-    newP.innerHTML = item.item_price
+    newP.innerHTML = '€' + item.item_price
     const newA = document.createElement("a")
     newA.innerHTML = 'Add to cart'
     newA.href="#"
