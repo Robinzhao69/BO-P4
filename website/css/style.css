@@ -26,10 +26,10 @@ body{
 img{
   max-width: 300px;
 }
-.nav-items img{
+.nav-items > a > img{
   margin: 20px;
 }
-.nav-items img:hover{
+.nav-items > a > img:hover{
   transform: scale(1.1);
 }
 * {  
@@ -119,7 +119,7 @@ nav .icon:hover {
   flex-direction: column;
 }
 
-.nav-items > img{
+.nav-items > a > img{
   height: 50px;
   margin: 7px;
   display: none;
@@ -142,7 +142,7 @@ nav .icon:hover {
       justify-content: space-between;
     }
 
-    .nav-items > img{
+    .nav-items > a > img{
       display: initial;
       margin-left: 100px;
     }

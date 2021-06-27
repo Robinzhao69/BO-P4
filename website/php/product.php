@@ -19,7 +19,7 @@ if (mysqli_connect_errno()) {
 }
 
 // ZET de query klaar in een variabele
-$sql = "SELECT item_id, item_name, item_price, item_image FROM items";
+$sql = "SELECT * FROM items";
 
 // VOER de query uit met de gelegde verbinding en de query variabele
 $result = mysqli_query($connect, $sql);

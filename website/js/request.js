@@ -1,3 +1,5 @@
+
+
 let items = [];
 
 // MAAK een nieuw request object aan
@@ -24,6 +26,7 @@ xmlhttp.send();
 
 
 function addElement (item) {
+    console.log(item)
     const newDiv = document.createElement("div")
     newDiv.className = 'product-card'
     const newImg = document.createElement("img")
@@ -36,8 +39,8 @@ function addElement (item) {
     newP.className = 'price'
     newP.innerHTML = '€' + item.item_price
     const newA = document.createElement("a")
-    newA.innerHTML = 'Add to cart'
-    newA.href="#"
+    newA.innerHTML = 'More details'
+    newA.href= item.item_link
     const currentDiv = document.getElementById("slider")
 
     newProductDiv.appendChild(newH1);

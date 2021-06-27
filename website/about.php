@@ -23,7 +23,7 @@
             <img src="./foto/logo.png" alt="">
             <div class="nav-links">
                 <a href="#"><li>Home</li></a>
-                <a href="#"><li>Cart</li></a>
+                <a href="http://31716.hosts1.ma-cloud.nl/website/wordpress/"><li>Shop</li></a>
                 <a href="#"><li>About</li></a>
                 <a href="#"><li>Contact</li></a>
             </div>

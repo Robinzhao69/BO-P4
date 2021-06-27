@@ -17,17 +17,17 @@
 
 </head>
 <body>
-    <div class="nav-parent">
+    <div class="nav-parent" id="home">
         <nav>          
             <div class="icon">
                 <i class="fa fa-bars"></i>
             </div>
         </nav>
         <ul class="nav-items">
-            <img src="./foto/logo.png" alt="">
+        <a href="#home"><img src="./foto/logo.png" alt=""></a>   
             <div class="nav-links">
-                <a href="#"><li>Home</li></a>
-                <a href="#"><li>Cart</li></a>
+                <a href="#home"><li>Home</li></a>
+                <a href="http://31716.hosts1.ma-cloud.nl/website/wordpress/"><li>Shop</li></a>
                 <a href="#"><li>About</li></a>
                 <a href="#"><li>Contact</li></a>
             </div>
@@ -42,7 +42,7 @@
             <div class="tekst">
                 <h1>Welkom, <br>bij Duckyz</h1>
                 <p>Dit is de webshop waarbij jij je favoriete badspeeltjes kan halen.</p>
-                <a href="#">ontdek nu</a>
+                <a href="http://31716.hosts1.ma-cloud.nl/website/wordpress/">ontdek nu</a>
             </div>
 
             <div class="plaatje">
