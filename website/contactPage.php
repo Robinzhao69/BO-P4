@@ -7,11 +7,13 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
     <link rel="preconnect" href="https://fonts.gstatic.com/%22%3E">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/contact.css">
     <script type="module" src="js/script.js" defer></script>
     <title>Contact form</title>
 </head>
 <body>
-<div class="nav-parent">
+
+    <div class="nav-parent">
         <nav>          
             <div class="icon">
                 <i class="fa fa-bars"></i>
@@ -26,15 +28,27 @@
                 <a href="contactPage.php"><li>Contact</li></a>
             </div>
         </ul>
+    </div>
+
+    <div class="contact-form">
+        <h1>Contact Us</h1>
+        <div class="txtb">
+            <label> Full Name :</label>
+            <input type="text" name="" value="" placeholder="Enter Your Name">
+        </div>
+
+        <div class="txtb">
+            <label> Email :</label>
+            <input type="email" name="" value="" placeholder="Enter Your Email">
+        </div>
+
+        <div class="txtb">
+            <label> Message :</label>
+            <textarea></textarea>
+        </div>
+        <a class="btn">Send</a>
+
+    </div>
 </div>
-    <main>
-    <p>SEND E-MAIL</p>
-    <form class="contact-form" action="contactform.php" method="post"></form>
-        <input type="text" name="name" placeholder="Full name">
-        <input type="text" name="mail" placeholder="Your e-mail">
-        <input type="text" name="subject" placeholder="Subject">
-        <textarea name="message" placeholder="Message"></textarea>
-        <button type="submit" name="submit">SEND MAIL</button>
-    </main>
 </body>
 </html>

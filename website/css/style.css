@@ -162,7 +162,7 @@ nav .icon:hover {
   height: 500px;
   background-color: rgb(207, 206, 186);
   padding-top: 40px;
-  margin-top: 64px;
+  margin-top: 72px;
 }
 .introduction h1{
   grid-column: 2;
@@ -171,5 +171,6 @@ nav .icon:hover {
   grid-column: 2;
 }
 .introduction img{
+  max-width: 300px;
   grid-column: 3;
 }
