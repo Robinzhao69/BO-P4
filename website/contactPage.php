@@ -20,10 +20,10 @@
         <ul class="nav-items">
             <img src="./foto/logo.png" alt="">
             <div class="nav-links">
-                <a href="#"><li>Home</li></a>
+                <a href="index.php"><li>Home</li></a>
                 <a href="http://31716.hosts1.ma-cloud.nl/website/wordpress/"><li>Shop</li></a>
-                <a href="#"><li>About</li></a>
-                <a href="#"><li>Contact</li></a>
+                <a href="about.php"><li>About</li></a>
+                <a href="contactPage.php"><li>Contact</li></a>
             </div>
         </ul>
 </div>

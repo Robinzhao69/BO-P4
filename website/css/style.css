@@ -23,7 +23,7 @@ body{
   grid-gap: 100px;
   padding: 50px;
 }
-img{
+.nav-items > a > img{
   max-width: 300px;
 }
 .nav-items > a > img{
