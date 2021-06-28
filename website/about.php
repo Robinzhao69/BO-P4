@@ -35,5 +35,22 @@
     <p>We are a new and exciting webshop, <br> we sell bath/pool toys.</p>
     <img src="./foto/logo.png" alt="">
 </div>
+<div class="us">
+    <h2>We are not your average webshop!</h2>
+    <br>
+    <p>1. We strive for the ultimate customer experience.<br>2. We donate to those in need.<br>3. We have 24/7 customer support.<br>4. We do our best to create a realationship out of trust with our customer.</p>
+</div>
+<div class="personel">
+    <div class="p1">
+        <img class="im1" src="./foto/max.jpg" alt="">
+        <h2>Max Bouricius</h2>
+        <p>I am Max Bouricius</p>
+    </div>
+    <div class="p2">
+        <img class="im2" src="./foto/max.jpg" alt="">
+        <h2>Max Bouricius</h2>
+        <p>I am Max Bouricius</p>
+    </div>
+</div>
 </body>
 </html>
