@@ -50,6 +50,17 @@
         <a class="btn">Send</a>
 
     </div>
+
+    <footer>
+        <div class="footer-content">
+            <h3>Duckyz</h3>
+            <p>Contact us at 29093@ma-web.nl!!</p>
+        </div>
+        <div class="footer-bottom">
+            <p>copyright &copy;2021 Duckyz. designed by <span>Max Bouricius</span></p>
+        </div>
+    </footer>
+    
 </div>
 </body>
 </html>
