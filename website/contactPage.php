@@ -18,7 +18,7 @@
             </div>
         </nav>
         <ul class="nav-items">
-            <img src="./foto/logo.png" alt="">
+        <a href="#"><img src="./foto/logo.png" alt=""></a>
             <div class="nav-links">
                 <a href="index.php"><li>Home</li></a>
                 <a href="http://31716.hosts1.ma-cloud.nl/website/wordpress/"><li>Shop</li></a>
