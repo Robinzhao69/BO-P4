@@ -13,7 +13,7 @@
     <title>Contact form</title>
 </head>
 <body>
-
+    <div class="page-wrapper">
     <div class="nav-parent">
         <nav>          
             <div class="icon">
@@ -50,7 +50,7 @@
         <a class="btn">Send</a>
 
     </div>
-
+</div>
     <footer>
         <div class="footer-content">
             <h3>Duckyz</h3>

@@ -18,6 +18,7 @@
 
 </head>
 <body>
+    <div class="page-wrapper">
     <div class="nav-parent" id="home">
         <nav>          
             <div class="icon">
@@ -77,12 +78,8 @@
             </div>
             <img id="slide-right" class="arrow" src="./foto/arrow-right.png">
         </div>
-
-        <!-- sidebar -->
-        <div class="sidebar">
-           
-        </div>
     </div>
+
     <footer>
         <div class="footer-content">
             <h3>Duckyz</h3>
@@ -92,5 +89,7 @@
             <p>copyright &copy;2021 Duckyz. designed by <span>Max Bouricius</span></p>
         </div>
     </footer>
+       
+    
 </body>
 </html>

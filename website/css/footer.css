@@ -1,9 +1,7 @@
 
 footer{
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
+    position: relative;
+    
     background: rgb(221, 221, 221);
     height: auto;
     width: 100vw;
@@ -53,4 +51,8 @@ footer{
     text-transform: uppercase;
     opacity: .4;
     font-weight: 200;
+}
+
+.page-wrapper{
+    min-height: 100%;
 }
