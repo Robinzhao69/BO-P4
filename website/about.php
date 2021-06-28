@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
     <link rel="preconnect" href="https://fonts.gstatic.com/%22%3E">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/footer.css">
     <script type="module" src="js/script.js" defer></script>
     <title>About us!</title>
 </head>
@@ -44,13 +45,22 @@
     <div class="p1">
         <img class="im1" src="./foto/max.jpg" alt="">
         <h2>Max Bouricius</h2>
-        <p>I am Max Bouricius</p>
+        <p>I am Max Bouricius, I am a student at <br> MediaCollege Amsterdam.<br>I am striving to become a fullstack developer<br> and teach myself to become a better and <br> well rounded person.</p>
     </div>
     <div class="p2">
         <img class="im2" src="./foto/max.jpg" alt="">
         <h2>Max Bouricius</h2>
-        <p>I am Max Bouricius</p>
+        <p>I am Max Bouricius, I am a student at <br> MediaCollege Amsterdam.<br>I am striving to become a fullstack developer<br> and teach myself to become a better and <br> well rounded person.</p>
     </div>
 </div>
+<footer>
+        <div class="footer-content">
+            <h3>Duckyz</h3>
+            <p>Contact us at 29093@ma-web.nl!!</p>
+        </div>
+        <div class="footer-bottom">
+            <p>copyright &copy;2021 Duckyz. designed by <span>Max Bouricius</span></p>
+        </div>
+</footer>
 </body>
 </html>

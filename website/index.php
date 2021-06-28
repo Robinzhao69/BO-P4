@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/start.css">
     <link rel="stylesheet" href="css/product-slider.css">
+    <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
     <link rel="preconnect" href="https://fonts.gstatic.com/%22%3E">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap" rel="stylesheet">
@@ -82,6 +83,14 @@
            
         </div>
     </div>
-
+    <footer>
+        <div class="footer-content">
+            <h3>Duckyz</h3>
+            <p>Contact us at 29093@ma-web.nl!!</p>
+        </div>
+        <div class="footer-bottom">
+            <p>copyright &copy;2021 Duckyz. designed by <span>Max Bouricius</span></p>
+        </div>
+    </footer>
 </body>
 </html>
